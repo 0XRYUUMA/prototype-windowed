@@ -1,11 +1,10 @@
 prototype-windowed
 ==================
 
-Requirement: PrototypeFix 1.8 must already be installed.
+1. Install PrototypeFix 1.8 normally.
+2. Copy prototype_windowed.asi and prototype_fix.ini into the game folder.
+3. Replace the existing prototype_fix.ini when Windows asks.
+4. Launch the game normally.
 
-1. Copy prototype_windowed.asi and Install_PrototypeWindowed.bat to the game folder.
-2. Run Install_PrototypeWindowed.bat once.
-3. Launch Prototype normally.
-
-The original prototype_fix.asi is not renamed or replaced.
-The installer only updates prototype_fix.ini and creates a backup.
+The original prototype_fix.asi stays untouched.
+No BAT, no terminal, no file renaming.
