@@ -1,0 +1,32 @@
+prototype-windowed
+==================
+
+Requirements:
+- Prototype (2009)
+- PrototypeFix 1.8 by emoose
+
+Installation:
+1. Install PrototypeFix 1.8 normally.
+2. In the game folder, rename the original:
+      prototype_fix.asi
+   to:
+      prototype_fix_original.dll
+3. Copy dist/prototype_fix.asi and dist/prototype_fix.ini from this repository
+   into the game folder.
+4. Launch the game normally.
+
+Expected result:
+- Windowed mode
+- Normal Windows title bar and borders
+- Movable and resizable window
+- Minimize / maximize / close buttons
+- Initial 1920x1080 size
+- Automatic centering
+
+Important:
+Keep BorderlessWindow = true in prototype_fix.ini. PrototypeFix needs that
+code path to force the game into windowed mode. The wrapper restores the
+normal frame after the game window has been created.
+
+Diagnostics:
+prototype_window_frame.log is written to the game folder.
