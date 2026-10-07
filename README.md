@@ -15,9 +15,18 @@ PrototypeFix reliably forces the game into windowed mode through its `Borderless
 - PrototypeFix remains untouched
 - No BAT, no terminal, no renamed files
 
+## Required dependency
+
+This addon requires **PrototypeFix 1.8 by emoose**.
+
+Official Nexus Mods page:
+https://www.nexusmods.com/prototype/mods/52
+
+Install PrototypeFix first. This repository does not redistribute it.
+
 ## Installation
 
-1. Install **PrototypeFix 1.8** normally.
+1. Install **PrototypeFix 1.8** from the official page above.
 2. Download this mod.
 3. Copy these two files into the game folder:
    - `prototype_windowed.asi`
@@ -63,7 +72,7 @@ If another startup hook removes the frame again, the addon restores the frame wi
 
 ## Credits
 
-- **PrototypeFix** by emoose — required dependency and original windowed-mode/game-fix implementation.
+- **PrototypeFix** by emoose — required dependency and original windowed-mode/game-fix implementation: https://www.nexusmods.com/prototype/mods/52
 - **prototype-windowed** — independent window-frame addon maintained in this repository.
 
 This repository does not redistribute PrototypeFix or proprietary Prototype game binaries.
